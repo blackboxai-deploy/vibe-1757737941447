@@ -1,0 +1,18 @@
+{
+  "name": "calculator-backend-node",
+  "version": "1.0.0",
+  "description": "Scientific calculator backend API using Node.js",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "keywords": ["calculator", "scientific", "math", "api"],
+  "author": "Calculator API",
+  "license": "MIT"
+}
